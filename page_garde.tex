@@ -1,0 +1,62 @@
+%&pdflatex
+\pdfobjcompresslevel 0 % Ligne souvent nécessaire pour la validité du PDF généré
+\documentclass[french,12pt,a4paper]{report}
+\usepackage[top=1.5cm,bottom=2cm,left=2.5cm,right=2.5cm,includehead]{geometry}
+\usepackage[T1]{fontenc}% pour la sortie
+\usepackage[utf8]{inputenc} % pour l'entrée
+\usepackage{graphicx}
+\usepackage{setspace}
+
+\begin{document}
+\pagestyle{empty}
+% Les logos en tête, ici une seule image incluse
+%\includegraphics[scale=1, height=1.7cm]{images/logo0.png}
+%\hfill
+%\includegraphics[scale=1, height=1.7cm]{images/logo1.png}
+%\hfill
+\includegraphics[scale=1, height=1.7cm]{images/brdx.pdf}
+\hfill
+\includegraphics[scale=1, height=1.7cm]{images/brdx.pdf}
+\hfill
+%\includegraphics[scale=1, height=1.7cm]{images/logo4.jpg}
+\begin{center}
+\doublespacing
+\begin{Large}
+
+THÈSE PRÉSENTÉE\\ POUR OBTENIR LE GRADE DE \\
+{\LARGE \textbf{DOCTEUR\\DE L'UNIVERSITÉ DE BORDEAUX} } \\
+\vspace{0.55cm}
+ECOLE DOCTORALE SCIENCES ET ENVIRONNEMENTS\\
+{\normalsize ECOLOGIE ÉVOLUTIVE, FONCTIONNELLE ET DES COMMUNAUTÉS} \\
+\vspace{0.55cm}
+Par \textbf{Harry COVERT} \\
+\vspace{0.55cm}
+{\Large Titre de la thèse décrivant avec les mots clés nécessaires la thématique précise étudiée et les travaux effectuées}
+\end{Large}
+\vspace{0.55cm}
+\begin{normalsize}
+\begin{singlespace}
+Sous la direction de : \textbf{Jane DOE}\\
+Co-directrice : \textbf{Simone UNTEL}
+\end{singlespace}
+\end{normalsize}
+\end{center}
+\vfill
+{\large Soutenue le 25 décembre 2019 }\\
+\vfill
+Membres du jury :
+\begin{table}[b]
+\centering
+\makebox[\textwidth]{%
+\begin{tabular}{lllr}
+Mme. Aude ALPHA       & Directrice de Recherche & Université & Rapporteur  \\
+M. Bernard BETA       & Directeur de Recherche  & Université & Rapporteur  \\
+M. Georges GAMMA      & Directeur de Recherche  & Université & Président   \\
+Mme. Dominique DELTA  & Chargée de Recherche    & Université & Examinatrice\\
+M. Eric EPSILON       & Ingénieur de Recherche  & Université & Examinateur \\
+Mme. Jane DOE         & Directrice de Recherche & Université & Directrice  \\
+Mme. Simone UNTEL     & Ingénieure de Recherche & Université & Invitée     \\
+\end{tabular}
+}
+\end{table}
+\end{document}
