@@ -16,7 +16,7 @@ Assuming that the following library has been loaded:
 
 # Modèle LaTeX non officiel pour les thèses de doctorat de l'Université de Bordeaux
 
-La page de couverture et la page du résumé ont un formatage plus restreint et peuvent être difficiles à réaliser. Voici des modèles de ces pages LaTeX conformes aux recommendations de l'UB.  Je les ai écrites pour ma propre thèse de doctorat en 2019 en l'absence de tout modèle officiel en latex.
+La page de couverture et la page du résumé ont un formatage plus restreint et peuvent être difficiles à réaliser. Voici des modèles de ces pages LaTeX conformes aux recommendations de l'UB.  Je les ai écrites pour ma propre thèse de doctorat en 2019 en l'absence de tout modèle officiel en LaTeX.
 Elles se compilent avec la commande `pdflatex`.
 Ces pages, une fois compilées en PDF, peuvent être inclus dans un manuscrit de thèse avec la commande suivante :
 
