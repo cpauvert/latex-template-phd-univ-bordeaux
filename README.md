@@ -1,4 +1,7 @@
+**UPDATE**: The template was made available on the official website of the University's Library: [here](http://bibliotheques.u-bordeaux.fr/Soutien-a-la-recherche/Theses-et-memoires-numeriques/These-de-doctorat/Rediger-sa-these-de-doctorat) and [there](https://bibliotheques.u-bordeaux.fr/Soutien-a-la-recherche/Theses-et-memoires-numeriques/These-de-doctorat/Deposer-sa-these-de-doctorat).
+
 # Unofficial LaTeX template for PhD thesis of the University of Bordeaux
+
 The cover page and the abstract page have a more restricted formatting and can be hard to come up to.
 Here are models of these LaTeX pages that comply with the UB recommendations. I wrote them for my own PhD in 2019 in absence of any Latex official templates.
 They are compiled with the `pdflatex` command.
